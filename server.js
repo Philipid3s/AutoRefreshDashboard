@@ -27,6 +27,7 @@ setInterval(() => {
   // and enable TCP/IP protocol from SQL Server Network Configuration
   // Port 1433
   console.log("Connecting sql server...");
+
   sql.connect(config.db, (err) => {
     if (err) {
       console.log(err);
