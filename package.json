@@ -1,0 +1,23 @@
+{
+  "name": "auto-refresh-dashboard",
+  "version": "1.0.0",
+  "description": "Auto refreshed dashboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mssql",
+    "express",
+    "sochet.io"
+  ],
+  "author": "Julien Regnault",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "^4.16.4",
+    "mssql": "^4.2.1",
+    "socket.io": "^2.1.1"
+  }
+}
